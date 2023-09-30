@@ -1,0 +1,10 @@
+:root
+{
+        --defaultCursor  : url('https://github.com/duck2469/gamebanana-uberstyleCSS/blob/f229341946ad5061d268bd496f5b1d0bf95ce10c/Cursors/defaultCursor.cur'),    default !important;
+        --helpCursor     : url('https://github.com/duck2469/gamebanana-uberstyleCSS/blob/f229341946ad5061d268bd496f5b1d0bf95ce10c/Cursors/helpCursor.cur'),       help !important;
+        --grabCursor     : url('https://github.com/duck2469/gamebanana-uberstyleCSS/blob/f229341946ad5061d268bd496f5b1d0bf95ce10c/Cursors/grabCursor.cur'),                        grab !important;
+        --grabbingCursor : url('https://github.com/duck2469/gamebanana-uberstyleCSS/blob/f229341946ad5061d268bd496f5b1d0bf95ce10c/Cursors/grabbingCursor.cur'),                        grabbing !important;
+        --moveCursor     : url('https://github.com/duck2469/gamebanana-uberstyleCSS/blob/f229341946ad5061d268bd496f5b1d0bf95ce10c/Cursors/moveCursor.cur') 12 12, move !important;
+        --pointerCursor  : url('https://github.com/duck2469/gamebanana-uberstyleCSS/blob/f229341946ad5061d268bd496f5b1d0bf95ce10c/Cursors/pointerCursor.cur'),    pointer !important;
+}
+/*Ring-A-Ding Rampage, stefanotinaglia99
