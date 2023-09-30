@@ -1,5 +1,6 @@
 :root
 {
+        --DefaultTextColor: #e2e2e2;
         --defaultCursor  : url('https://github.com/duck2469/gamebanana-uberstyleCSS/blob/f229341946ad5061d268bd496f5b1d0bf95ce10c/Cursors/defaultCursor.cur'),    default !important;
         --helpCursor     : url('https://github.com/duck2469/gamebanana-uberstyleCSS/blob/f229341946ad5061d268bd496f5b1d0bf95ce10c/Cursors/helpCursor.cur'),       help !important;
         --grabCursor     : url('https://github.com/duck2469/gamebanana-uberstyleCSS/blob/f229341946ad5061d268bd496f5b1d0bf95ce10c/Cursors/grabCursor.cur'),                        grab !important;
