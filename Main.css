@@ -68,7 +68,7 @@ for Gamebanana, so have fun with it and create a profile you can call home.
        /*Adjust the color of the site logo*/
        #SiteLogo img {
         max-width: unset;
-        filter: hue-rotate(56deg) saturate(3);
+        filter: hue-rotate(56deg) saturate(1);
      }
      
      /*This controls the background behind the main content on your profile*/
@@ -84,15 +84,15 @@ for Gamebanana, so have fun with it and create a profile you can call home.
      /*This contoles the looks of your modules such as identity, messages, online status, etc.*/
      .PageModule>.Content {
         background: #1d1d1d;
-        border: 1px solid #1d1d;
+        border: 1px solid rgba(221, 17, 17, 0.867);
      }
      
       /*general control for the look of headers*/
      b, h2, h3 {
         background: #1d1d1d !important;
         text-align: center !important;
-        border-bottom: 1px solid #1d1d !important;
-        border-top: 1px solid #1d1d !important;
+        border-bottom: 1px solid rgb(255, 0, 0) !important;
+        border-top: 1px solid rgb(255, 0, 0) !important;
      }
      
      /*I have this here to get rid of the small bit of border that would appear under the h2 headers*/
@@ -103,13 +103,13 @@ for Gamebanana, so have fun with it and create a profile you can call home.
       /*Top Navigation properties*/
       #PrimaryNav{
          background: #1d1d1d;
-         border-bottom: 2px solid #1d1d;
+         border-bottom: 2px solid rgba(221, 17, 17, 0.867);
       }
      
       /*Side Navgiation properties*/
       #SecondaryNav{
          background: #1d1d1d;
-         border-right: 1px solid #1d1d;
+         border-right: 1px solid rgba(221, 31, 17, 0.867);
       }
      
       /*Changes subnav when you scroll down*/
@@ -134,13 +134,13 @@ for Gamebanana, so have fun with it and create a profile you can call home.
         margin-bottom: -0.125em;
         border-bottom-width: 0.125em;
         border-bottom-style: solid;
-        border-bottom-color: #1d1d;
+        border-bottom-color: rgba(221, 58, 17, 0.867);
         background: #1a1a1a;
      }
      
       /*a controls the default color of links, a:hover controls the link cover when hovered over*/
       a{
-        color: #1d1d;
+        color: rgba(255, 115, 115, 0.89);
       }
      
       a:hover{
@@ -190,7 +190,7 @@ for Gamebanana, so have fun with it and create a profile you can call home.
      
       /*Visitors Module Tab appearance*/
       input:checked+.Tab {
-        border: 3px solid #1d1d; /*Controls border thickness & color for Active tab*/
+        border: 3px solid rgba(221, 65, 17, 0.867); /*Controls border thickness & color for Active tab*/
         border-bottom: 0;
         cursor: default;
         font-weight: 700;
@@ -220,7 +220,7 @@ for Gamebanana, so have fun with it and create a profile you can call home.
      
       .Tab{
         background: transparent; /*Controls background color for all tabs*/
-        border: 1px solid #1d1d; /*Controls border for inactive tab*/
+        border: 1px solid rgba(240, 29, 29, 0.867); /*Controls border for inactive tab*/
         border-bottom: 0;
         border-radius: 0.25em 0.25em 0 0;
         cursor: pointer;
